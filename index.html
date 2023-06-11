@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Edit ACCOUNT</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="h-screen bg-[#262847] flex items-center justify-center flex-col ">
+    <main class="flex flex-col  justify-center w-96 rounded-md">
+        <header class="relative  px-5 py-5 font-Poppins rounded bg-[#2B2C50] ">
+            <h2 class="font-medium text-[#D0D1F5]">Edit Your Account</h2>
+            <div class="absolute top-0 right-0 mt-2 mr-4 text-[#4A4B6D] hover:text-white"><i
+                    class="fa-solid fa-xmark"></i>
+            </div>
+        </header>
+        <section class="flex flex-col p-10 bg-[#303057] ">
+            <!-- name -->
+            <div class="flex flex-col ">
+                <span class="text-[#AFAFD6]">NAME</span>
+                <input type="text" id=""
+                    class="h-10 mb-4 bg-[#303057] text-white pl-2 border-2 border-[#43436E] hover:border-[#6F75BE] outline-none">
+            </div>
+            <!-- email -->
+            <div class="flex flex-col">
+                <span class="text-[#AFAFD6]">EMAIL</span>
+                <input type="email" id=""
+                    class="h-10 mb-4 bg-[#303057] text-white pl-2 border-2 border-[#43436E] hover:border-[#6F75BE]  outline-none">
+            </div>
+            <!-- date of birth -->
+            <div class="flex flex-col">
+                <div>
+                    <span class="text-[#AFAFD6]">DATE OF BIRTH</span>
+                    <div>
+                        <input type="date" name="" id=""
+                            class="h-10 w-full mb-4 bg-[#303057] text-white pl-2 border-2 border-[#43436E] hover:border-[#6F75BE]  outline-none">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <footer class="bg-[#2B2C50] px-5 py-5 font-Poppins rounded flex justify-around ">
+            <button
+                class="bg-[#34355B] px-10 py-3 text-[#B5B6DC] hover:bg-[#F27363] transtion ease-in-out duration-300 rounded-md">Cancel</button>
+            <button
+                class="bg-[#F27363] px-12 py-3 text-[#B5B6DC] hover:bg-[#34355B] transtion ease-in-out duration-300 rounded-md">Save</button>
+
+        </footer>
+    </main>
+</body>
+
+</html>
